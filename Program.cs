@@ -13,8 +13,8 @@
 //        day_of_week dt = (day_of_week)int.Parse(Console.ReadLine());
 //        Console.Write("Your favorite day of week is {0}", dt);
         
-        Console.WriteLine("Вас зовут {0} а Вам {1} лет", name, age);
-        Console.WriteLine("Ва родились {0}", date);
+        Console.WriteLine($"Вас зовут {name} и Вам {age} лет");
+        Console.WriteLine($"Вы родились {date}");
         Console.ReadKey();
     }
 }
